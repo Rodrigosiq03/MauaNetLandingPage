@@ -16,16 +16,29 @@
                 <p>
                     <strong>{{user.name}}</strong> - <strong>{{user.email}}</strong><br>
                     R.A: <strong>{{user.ra}}</strong> | Celular: <strong>{{user.phone}}</strong><br>
-                    | <small>Alterar Informações</small> || <small><a onclick="desconectar()">Sair</a></small>
+                    | <small><a onclick="alterarInformacao()">Alterar Informações</a></small> || <small><a onclick="desconectar()">Sair</a></small>
                 </p>
             </div>
         </div>
         <div class="bottom">
-
+            <p>
+                <button onclick="home()">Home</button>
+                <button onclick="links()">Links</button>
+                <button onclick="faleConosco()">Fale Conosco</button>
+            </p>
         </div>
     </header>
     <main>
-        <h1>teste</h1>
+        <div class="navbar">
+            <a href="index.html">Principal</a>
+            <a href="planodeensino.html">Plano de Ensino das Disciplinas</a>
+            <a href="horariodocentes.html">Horário dos Docentes</a>
+            <a href="boletimescolar.html">Boletim Escolar</a>
+            <a href="boletobancario.html">Boleto Bancário</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="secretaria.html">Secretaria - Arquivos</a>
+            <a href="servicosonline.html">Serviços on-line</a>
+        </div>
     </main>
     <footer>© Instituto Mauá de Tecnologia - 2023 - Todos os direitos reservados</footer>
 </body>
