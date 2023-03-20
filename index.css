@@ -2,3 +2,12 @@ main {
     border: 1px solid #4297D7;
     border-radius: 5px;
 }
+.bottom{
+    background-color: #5885ae; 
+}
+
+button {
+    margin: 5px;
+    background-color: #5885ae;
+    border-color: #5885ae;
+}
