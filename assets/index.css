@@ -114,6 +114,17 @@ main .navbar a:hover {
 
 }
 
+.links-services a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.links-services a:hover {
+    text-decoration: underline;
+}
+
 footer {
     width: 100%;
     height: 50px;
