@@ -5,5 +5,22 @@ main {
 
 main .navbar {
     overflow: hidden;
-    background-image: linear-gradient(to bottom, #87b6d9, #6ea6d1);    
+    background-image: linear-gradient(to bottom, #87b6d9, #6ea6d1);  
+}
+
+main .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+main .navbar a:hover {
+    color: red;
+    text-decoration: underline;
 }
