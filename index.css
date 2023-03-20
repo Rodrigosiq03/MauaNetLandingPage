@@ -2,3 +2,8 @@ main {
     border: 1px solid #4297D7;
     border-radius: 5px;
 }
+
+main .navbar {
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #87b6d9, #6ea6d1);    
+}
