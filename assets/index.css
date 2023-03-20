@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 127px;
+    background-color: #004684;
+    position: relative;
+}
+
+.logo-maua {
+    width: 170px;
+    height: 80px;
+    margin-left: 14px;
+    padding-top: 18px;
+}
+
+.user-informations {
+    margin-top: 15px;
+    text-align: center;
+    position: absolute;
+    top: 3px;
+    right: 15px;
+    font-size: 11px;
+    color: #FFF;
+}
+
+main .navbar {
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #87b6d9, #6ea6d1);  
+}
+
+
+main .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+main .navbar a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.navbar-requerimentos {
+    width: 100%;
+    
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column-left {
+    width: 30%;
+    height: 100%;
+}
+
+.columns-middle {
+    width: 40%;
+    height: 100%;
+}
+
+.column-right {
+    width: 30%;
+    height: 100%;
+}
+
+.open-lms-logo {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.container-for-images-column-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links-center-and-column {
+    display: flex;
+    flex-direction: column;
+
+}

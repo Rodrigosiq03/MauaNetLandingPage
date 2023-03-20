@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/index.css">
+    <title>MAUAnet</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <a href="https://maua.br"><img src="./assets/imgs/logo-maua.png" alt="Logo da MAUA" class="logo-maua left"></a>
+            <link rel="icon" href="./assets/imgs/favicon.ico" type="image/x-icon">
+            <div class="user-informations">
+                <img src="./assets/imgs/logo-mauanet.jpg" alt="Logo MAUAnet">
+                <p>
+                    <strong>{{user.name}}</strong> - <strong>{{user.email}}</strong><br>
+                    R.A: <strong>{{user.ra}}</strong> | Celular: <strong>{{user.phone}}</strong><br>
+                    | <small><a onclick="alterarInformacao()">Alterar Informações</a></small> || <small><a onclick="desconectar()">Sair</a></small>
+                </p>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>
+                <button onclick="home()">Home</button>
+                <button onclick="links()">Links</button>
+                <button onclick="faleConosco()">Fale Conosco</button>
+            </p>
+        </div>
+    </header>
+    <main>
+        <div class="navbar">
+            <a href="index.html">Principal</a>
+            <a href="planodeensino.html">Plano de Ensino das Disciplinas</a>
+            <a href="horariodocentes.html">Horário dos Docentes</a>
+            <a href="boletimescolar.html">Boletim Escolar</a>
+            <a href="boletobancario.html">Boleto Bancário</a>
+            <a href="cursos.html">Cursos</a>
+            <a href="secretaria.html">Secretaria - Arquivos</a>
+            <a href="servicosonline.html">Serviços on-line</a>
+        </div>
+        <div class="main-container">
+            <div class="column-left">
+                <div class="requerimentos">
+                    <div class="navbar-requerimentos">Requerimentos On-line</div>
+                    <div class="container-for-images-column-left">
+                        <img src="/assets/column-left/requerimento-online.png" alt="requerimento-online">
+                    </div>
+                </div>
+                <div class="open-lms">
+                    <div class="navbar-open-lms">Open-Lms</div>
+                    <div class="container-for-images-column-left">
+                        <img class="open-lms-logo" src="/assets/column-left/open-lms-logo.jpg" alt="open-lms">
+                    </div>
+                </div>
+                <div class="minha-biblioteca">
+                    <div class="navbar-biblioteca">Minha Biblioteca</div>
+                    <div class="container-for-images-column-left">
+                        <img class="minha-biblioteca-logo" src="/assets/column-left/minha_biblioteca_logo.jpg" alt="minha-biblioteca">
+                    </div>
+                </div>
+                <div class="links">
+                    <div class="navbar-links">Acesse</div>
+                    <div class="container-for-images-column-left">
+                        <div class="links-center-and-column">
+                            <div class="links-cima">
+                                <img src="/assets/column-left/icone-twitter.png" alt="">
+                                <img src="/assets/column-left/icone-facebook.png" alt="">
+                                <img src="/assets/column-left/icone-youtube.png" alt="">
+                                <img src="/assets/column-left/icone-flickr.png" alt="">
+                            </div>
+                            <div class="links-baixo">
+                                <img src="/assets/column-left/icone-blog.png" alt="">
+                                <img src="/assets/column-left/icone-infomaua.png" alt="">
+                                <img src="/assets/column-left/icone-chat.png" alt="">
+                                <img src="/assets/column-left/icone-rss.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="instagram">
+                    <div class="navbar-instagram">Instagram</div>
+                    <div class="container-for-images-column-left">
+                        <img class="instagram-post" src="/assets/column-left/instgram-post.png" alt="instagram">
+                    </div>
+                </div>
+            </div>
+            <div class="column-middle"></div>
+            <div class="column-right">
+                <div class="mod-outros-servicos">
+                    <div class="ui-widget-header ui-corner-top">Outros Serviços
+                        <div class="ui-widget-content ui-corner-bottom">
+                            <ul>
+                                <li>
+                                    <a href="biblioteca .html">Biblioteca</a>
+                                </li>
+                                <li>
+                                    <a href="comissao.html">Comissão Própria de avaliação</a>
+                                </li>
+                                <li>
+                                    <a href="credito.html">Crédito Educativo - Fundo Mauá de Bolsas</a>
+                                </li>
+                                <li>
+                                    <a href="declaracao.html">Declaração de Pagamentos</a>
+                                </li>
+                                <li>
+                                    <a href="documentos.html">Documentos</a>
+                                </li>
+                                <li>
+                                    <a href="estrutura.html">Estrutura Organizacional - IMT</a>
+                                </li>
+                                <li>
+                                    <a href="financeiro.html">Financeiros- Alunos</a>
+                                </li>
+                                <li>
+                                    <a href="ingresso.html">Ingresso no Microsoft Azure Dev Tools for Teaching
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="manual.html">Manual PI IMT</a>
+                                </li>
+                                <li>
+                                    <a href="portal.html">Portal Office</a>
+                                </li>
+                                <li>
+                                    <a href="projeto.html">Projeto e Atividades Especiais - Inscrições</a>
+                                </li>
+                                <li>
+                                    <a href="regimento.html">Regimento do Centro Universitário do IMT</a>
+                                </li>
+                                <li>
+                                    <a href="requerimento.html">Requerimento On-line</a>
+                                </li>
+                                <li>
+                                    <a href="sistema.html">Sistema Eureka</a>
+                                </li>
+                                <li>
+                                    <a href="solids.html">SolidWorks - Download</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="help-center">
+                    <div class="center-top">
+                        Programa de Apoio ao Aluno
+                    </div>
+                    <div class="center-bottom">
+                        <p>
+                            <a href="https://www.maua.br/email-mkt/programa-apoio-aluno/" target="_blank">
+                                <img src="/assets/column-left/mauanet-programa-apoio-aluno.jpg" alt="Imagem Programa de Apoio ao Aluno">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>© Instituto Mauá de Tecnologia - 2023 - Todos os direitos reservados</footer>
+</body>
+</html>
