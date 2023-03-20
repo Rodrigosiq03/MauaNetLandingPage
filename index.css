@@ -3,6 +3,22 @@ main {
     border-radius: 5px;
 }
 
+header .bottom {
+    background-image: linear-gradient(to bottom, #6691B4, #6ea6d1);  
+}
+
+header .bottom button {
+    background-image: linear-gradient(to bottom, #6691B4, #6ea6d1);  
+    border: 0px;
+    margin: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+}
+header .bottom button:hover{
+    background-image: linear-gradient(to top, #6691B4, #6ea6d1);
+}
+
 main .navbar {
     overflow: hidden;
     background-image: linear-gradient(to bottom, #87b6d9, #6ea6d1);  
